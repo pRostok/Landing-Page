@@ -1,12 +1,19 @@
-header {
+#header {
+    
     width: 100%;
     height: 70px;
     background-color: #1b1b32;
     display: flex;
-    justify-content: space-between;
+    
     align-items: center;
     position: fixed;
     top: 0;
+}
+
+#header> #nav-bar {
+width: 100%;
+text-align: center;
+height: 50px;
 }
 
 #log {
@@ -40,16 +47,70 @@ body {
     flex-direction: column;
 }
 
+.desc {
+    color:black;
+    font-family: 'Luckiest Guy', cursive;
+    margin-left: 130px;
+    margin-right: 130px;
+}
 
-
-
-
-
-#pricing {
-    display: flex;    
+.desc>h2 {
+    color: black;
+    text-align: center;
 }
 
 
 
 
 
+#pricing {
+    display: flex;
+    padding-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-spacing: 10px;
+   
+
+}
+
+
+.ccc {
+   
+    width: 250px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    flex-wrap:wrap;
+    border: 3px solid #1b1b32;
+    text-align: center;
+    
+}
+
+.ccc>img {
+    padding-top: 10px;
+}
+
+.ccc>h3 {
+    border-top: 3px solid #1b1b32;
+}
+
+.btn {
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: yellow;
+}
+
+.btn2 {
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: yellow;
+    
+}
+
+.nav-link {
+    text-decoration: dotted;
+    font-weight: 800;
+
+    }
